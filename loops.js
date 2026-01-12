@@ -8,15 +8,6 @@
 // *****
 
 
-// for(let i =0; i<5;i++){
-//     console.log("*".repeat(i));
-//     // if(i === 0) {
-//     //     console.log("*");
-//     // }
-//     // console.log("*" + i);
-//     // console.log(i = "*");
-//     // console.log(i);
-// }
 
 for(let i =1; i<6;i++) {
     console.log("*".repeat(i));
@@ -37,13 +28,6 @@ for(let i =1; i<6;i++) {
 // klaar!
 
 
-
-// for (let i =1; i<6;i++) {
-//     console.log("loop...".repeat(4));
-//     if(i === 5){
-//         console.log("klaar!");
-//     }
-// }
 
 for (let i =1; i<6;i++) {
     if(i < 5){
