@@ -28,6 +28,7 @@ for(let i =0; i<meetingTimes.length;i++) {
 // Verwachtte uitkomst:
 // console.log(salaries) geeft [3360, 2467.5, 2940, 3675, 2940]
 
+
 console.log("opdracht 2")
 const salaries = [3200, 2350, 2800, 3500, 2800];
 
@@ -47,7 +48,7 @@ for (let i =0; i<salaries.length;i++) {
 
 // Verwachte uitkomst:
 // console.log(birthYears) geeft [30, 28, 35, 22, 43]
-// ==========================================
+
 
 console.log("opdracht 3")
 const birthYears = [1995, 1997, 1990, 2003, 1982];
@@ -68,40 +69,11 @@ for (let i =0; i<birthYears.length;i++) {
 
 // Verwachte uitkomst:
 // console.log(leaveHours) geeft [12, 4.5, 4, 3.5, 1.5]
-// ==========================================
+
 
 console.log("opdracht 4");
 const leaveHours = [6, 9, 2, 7, 3];
 
-// // loop door array
-// for (let i =0; i<leaveHours.length;i++) {
-//     // Eerst huidige inhoud array loggen
-//     // console.log(leaveHours[i]);
-//     // Als even getal * 2
-//     if(i%2 === 0){
-//         console.log(leaveHours[i]*2);
-//     }
-//     // Als oneven getal *0.5
-//     else {
-//         console.log(leaveHours[i]*0.5);
-//     }
-// }
-// // terminal geeft 3 als even getal. Gecheckt met 1 en geeft ook even. Tenzij ik 1 achter 3 zet > [6, 9, 2, 7, 3, 1];.
-// // Maar als ik 5 achteraan zet dan geeft die ook even [6, 9, 2, 7, 3, 1, 5];. Tenzij ik 5 direct achter 3 zet [6, 9, 2, 7, 3, 5];
-// // Zet ik 3 achter 5, dan is 3 wel oneven [6, 9, 2, 7, 5, 3];. Maar zet ik 8 achter 5 [6, 9, 2, 7, 5, 8];, dan is 8 ineens oneven.
-// // Het lijkt dus te gaan over de plaatsing [index nummer] in de array? Check [9, 6, 2, 7, 3] en gaat inderdaad om index nummer.
-//
-// // Check % berekening met een function:
-// function isEven(n) {
-//     return (n % 2 === 0);
-// }
-// let n = 5;
-// console.log(isEven(n));
-//
-// // Hier zijn de oneven getallen wel "false"
-// // Waarom werkt %2 dan niet bij de for-loop / if-statement?
-
-// ********************** OPNIEUW ********************//
 // loop door array
 for (let i =0; i<leaveHours.length;i++) {
     // Eerst huidige inhoud array loggen
@@ -129,7 +101,6 @@ for (let i =0; i<leaveHours.length;i++) {
 // Verwachte uitkomst:
 // console.log(productionCodes) geeft ['ABC123', 'DEF456', 'GHI789', 'JKL012']
 
-// ==========================================
 
 console.log("opdracht 5");
 
