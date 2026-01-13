@@ -8,7 +8,6 @@
 // *****
 
 
-
 for(let i =1; i<6;i++) {
     console.log("*".repeat(i));
 }
@@ -26,7 +25,6 @@ for(let i =1; i<6;i++) {
 // loop...
 // loop...
 // klaar!
-
 
 
 for (let i =1; i<6;i++) {
@@ -57,7 +55,6 @@ for (let i =1; i<6;i++) {
  }
 
 
-
 // ==========================================
 // Opdracht 4. Schrijf een for-loop die van 9 tot en met 18 loopt en de uren logt.
 // - Bij 10:00 en 14:00 moet de tekst "Koffiepauze!" toegevoegd worden
@@ -76,6 +73,7 @@ for (let i =1; i<6;i++) {
 // 17:00 Bijna klaar...
 // 18:00
 
+
 for (let i =9; i<19;i++) {
     console.log(i+":00");
     if(i===12){
@@ -85,7 +83,6 @@ for (let i =9; i<19;i++) {
         console.log(i+":00 Bijna klaar...");
     }
 }
-
 
 
 // ==========================================
