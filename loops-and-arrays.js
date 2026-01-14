@@ -9,9 +9,13 @@
 // Vergadering om 14:00
 // Vergadering om 15:30
 // Vergadering om 17:00
-// ==========================================
 
+console.log("opdracht 1")
 const meetingTimes = ['09:00', '10:30', '14:00', '15:30', '17:00'];
+
+for(let i =0; i<meetingTimes.length;i++) {
+    console.log("Vergadering om " +meetingTimes[i]);
+}
 
 
 // ==========================================
@@ -23,9 +27,18 @@ const meetingTimes = ['09:00', '10:30', '14:00', '15:30', '17:00'];
 
 // Verwachtte uitkomst:
 // console.log(salaries) geeft [3360, 2467.5, 2940, 3675, 2940]
-// ==========================================
 
+
+console.log("opdracht 2")
 const salaries = [3200, 2350, 2800, 3500, 2800];
+
+// loop door salaries
+for (let i =0; i<salaries.length;i++) {
+    // Eerst de huidige inhoud array loggen
+    // console.log(salaries[i]);
+    // Inhoud moet *1.05 (+5%)
+    console.log(salaries[i]*1.05);
+}
 
 
 // ==========================================
@@ -35,10 +48,18 @@ const salaries = [3200, 2350, 2800, 3500, 2800];
 
 // Verwachte uitkomst:
 // console.log(birthYears) geeft [30, 28, 35, 22, 43]
-// ==========================================
 
+
+console.log("opdracht 3")
 const birthYears = [1995, 1997, 1990, 2003, 1982];
 
+// loop door array
+for (let i =0; i<birthYears.length;i++) {
+    // Eerst de huidige inhoud array loggen
+    // console.log(birthYears[i]);
+    // berekening = 2025 - geboorte jaar/inhoud [i]
+    console.log(2025 - birthYears[i]);
+}
 
 // ==========================================
 // Opdracht 4. Bob houdt bij hoeveel verlofuren medewerkers per maand opnemen. Nu wil hij voor het nieuwe jaar een bonusstructuur toepassen:
@@ -48,9 +69,24 @@ const birthYears = [1995, 1997, 1990, 2003, 1982];
 
 // Verwachte uitkomst:
 // console.log(leaveHours) geeft [12, 4.5, 4, 3.5, 1.5]
-// ==========================================
 
+
+console.log("opdracht 4");
 const leaveHours = [6, 9, 2, 7, 3];
+
+// loop door array
+for (let i =0; i<leaveHours.length;i++) {
+    // Eerst huidige inhoud array loggen
+    // console.log(leaveHours[i]);
+    // Als even getal * 2
+    if(leaveHours[i] %2 === 0){
+        console.log(leaveHours[i]*2);
+    }
+    // Als oneven getal *0.5
+    else {
+        console.log(leaveHours[i]*0.5);
+    }
+}
 
 
 // ==========================================
@@ -65,8 +101,17 @@ const leaveHours = [6, 9, 2, 7, 3];
 // Verwachte uitkomst:
 // console.log(productionCodes) geeft ['ABC123', 'DEF456', 'GHI789', 'JKL012']
 
-// ==========================================
+
+console.log("opdracht 5");
 
 const productionCodes = [" abC123  ", "  DEF456", "ghi789  ", "JKL012"];
+// const productionCodes = " abC123  "
+
+// loop door array
+for (let i =0; i<productionCodes.length;i++) {
+    // eerst array loggen
+    // console.log(productionCodes[i]);
+    console.log(productionCodes[i].trim().toUpperCase());
+}
 
 

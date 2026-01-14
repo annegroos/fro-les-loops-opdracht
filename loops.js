@@ -7,7 +7,7 @@
 // ****
 // *****
 
-
+console.log("opdracht 1");
 
 for(let i =1; i<6;i++) {
     console.log("*".repeat(i));
@@ -27,7 +27,7 @@ for(let i =1; i<6;i++) {
 // loop...
 // klaar!
 
-
+console.log("opdracht 2");
 
 for (let i =1; i<6;i++) {
     if(i < 5){
@@ -51,11 +51,11 @@ for (let i =1; i<6;i++) {
 // 'INV-0007'
 // 'INV-0008'
 
+console.log("opdracht 3");
 
  for (let i =1; i<9;i++) {
      console.log("'INV-000"+i+"'");
  }
-
 
 
 // ==========================================
@@ -76,6 +76,8 @@ for (let i =1; i<6;i++) {
 // 17:00 Bijna klaar...
 // 18:00
 
+console.log("opdracht 4");
+ 
 for (let i =9; i<19;i++) {
     console.log(i+":00");
     if(i===12){
@@ -85,7 +87,6 @@ for (let i =9; i<19;i++) {
         console.log(i+":00 Bijna klaar...");
     }
 }
-
 
 
 // ==========================================
@@ -103,6 +104,7 @@ for (let i =9; i<19;i++) {
 // >> 8
 // >> 9
 
+console.log("opdracht 5");
 
 for (let i =0; i<10;i++) {
     if (i<3) {
@@ -153,6 +155,7 @@ for (let i =0; i<10;i++) {
 // FizzBuzz
 // etc.
 
+console.log("opdracht 6");
 
 for (let i =1; i<31;i++) {
     if((i%3===0) && (i%5===0)) {
